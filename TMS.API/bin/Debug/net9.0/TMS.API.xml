@@ -4,5 +4,376 @@
         <name>TMS.API</name>
     </assembly>
     <members>
+        <member name="T:TMS.API.Controllers.ActivityLogsController">
+            <summary>
+            Full CRUD endpoints for ActivityLog.
+            </summary>
+        </member>
+        <member name="M:TMS.API.Controllers.ActivityLogsController.GetAll">
+            <summary>Gets all ActivityLogs.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.ActivityLogsController.GetById(System.Int64)">
+            <summary>Gets a single ActivityLog by its key.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.ActivityLogsController.Create(TMS.BusinessLayer.DTOs.ActivityLogDto)">
+            <summary>Creates a new ActivityLog.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.ActivityLogsController.Update(System.Int64,TMS.BusinessLayer.DTOs.ActivityLogDto)">
+            <summary>Updates an existing ActivityLog.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.ActivityLogsController.Delete(System.Int64)">
+            <summary>Deletes a ActivityLog.</summary>
+        </member>
+        <member name="T:TMS.API.Controllers.ActivityTypesController">
+            <summary>
+            Full CRUD endpoints for ActivityType.
+            </summary>
+        </member>
+        <member name="M:TMS.API.Controllers.ActivityTypesController.GetAll">
+            <summary>Gets all ActivityTypes.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.ActivityTypesController.GetById(System.Int32)">
+            <summary>Gets a single ActivityType by its key.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.ActivityTypesController.Create(TMS.BusinessLayer.DTOs.ActivityTypeDto)">
+            <summary>Creates a new ActivityType.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.ActivityTypesController.Update(System.Int32,TMS.BusinessLayer.DTOs.ActivityTypeDto)">
+            <summary>Updates an existing ActivityType.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.ActivityTypesController.Delete(System.Int32)">
+            <summary>Deletes a ActivityType.</summary>
+        </member>
+        <member name="T:TMS.API.Controllers.ApproversController">
+            <summary>
+            Full CRUD endpoints for Approver.
+            </summary>
+        </member>
+        <member name="M:TMS.API.Controllers.ApproversController.GetAll">
+            <summary>Gets all Approvers.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.ApproversController.GetById(System.Int32)">
+            <summary>Gets a single Approver by its key.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.ApproversController.Create(TMS.BusinessLayer.DTOs.ApproverDto)">
+            <summary>Creates a new Approver.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.ApproversController.Update(System.Int32,TMS.BusinessLayer.DTOs.ApproverDto)">
+            <summary>Updates an existing Approver.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.ApproversController.Delete(System.Int32)">
+            <summary>Deletes a Approver.</summary>
+        </member>
+        <member name="T:TMS.API.Controllers.AppUsersController">
+            <summary>
+            Full CRUD endpoints for AppUser.
+            </summary>
+        </member>
+        <member name="M:TMS.API.Controllers.AppUsersController.GetAll">
+            <summary>Gets all AppUsers.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.AppUsersController.GetById(System.Int32)">
+            <summary>Gets a single AppUser by its key.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.AppUsersController.Create(TMS.BusinessLayer.DTOs.AppUserDto)">
+            <summary>Creates a new AppUser.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.AppUsersController.Update(System.Int32,TMS.BusinessLayer.DTOs.AppUserDto)">
+            <summary>Updates an existing AppUser.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.AppUsersController.Delete(System.Int32)">
+            <summary>Deletes a AppUser.</summary>
+        </member>
+        <member name="T:TMS.API.Controllers.CandidateApprovalsController">
+            <summary>
+            Full CRUD endpoints for CandidateApproval.
+            </summary>
+        </member>
+        <member name="M:TMS.API.Controllers.CandidateApprovalsController.GetAll">
+            <summary>Gets all CandidateApprovals.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.CandidateApprovalsController.GetById(System.Int32)">
+            <summary>Gets a single CandidateApproval by its key.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.CandidateApprovalsController.Create(TMS.BusinessLayer.DTOs.CandidateApprovalDto)">
+            <summary>Creates a new CandidateApproval.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.CandidateApprovalsController.Update(System.Int32,TMS.BusinessLayer.DTOs.CandidateApprovalDto)">
+            <summary>Updates an existing CandidateApproval.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.CandidateApprovalsController.Delete(System.Int32)">
+            <summary>Deletes a CandidateApproval.</summary>
+        </member>
+        <member name="T:TMS.API.Controllers.CandidateOnboardingsController">
+            <summary>
+            Full CRUD endpoints for CandidateOnboarding.
+            </summary>
+        </member>
+        <member name="M:TMS.API.Controllers.CandidateOnboardingsController.GetAll">
+            <summary>Gets all CandidateOnboardings.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.CandidateOnboardingsController.GetById(System.Int32)">
+            <summary>Gets a single CandidateOnboarding by its key.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.CandidateOnboardingsController.Create(TMS.BusinessLayer.DTOs.CandidateOnboardingDto)">
+            <summary>Creates a new CandidateOnboarding.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.CandidateOnboardingsController.Update(System.Int32,TMS.BusinessLayer.DTOs.CandidateOnboardingDto)">
+            <summary>Updates an existing CandidateOnboarding.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.CandidateOnboardingsController.Delete(System.Int32)">
+            <summary>Deletes a CandidateOnboarding.</summary>
+        </member>
+        <member name="T:TMS.API.Controllers.CandidateWeekSummariesController">
+            <summary>
+            Read-only endpoints for the VwCandidateWeekSummary reporting view.
+            </summary>
+        </member>
+        <member name="M:TMS.API.Controllers.CandidateWeekSummariesController.GetAll">
+            <summary>Gets all candidate week summaries.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.CandidateWeekSummariesController.GetByCandidateId(System.Int32)">
+            <summary>Gets the week summaries for one candidate.</summary>
+        </member>
+        <member name="T:TMS.API.Controllers.CandidateWorkSettingsController">
+            <summary>
+            Full CRUD endpoints for CandidateWorkSetting.
+            </summary>
+        </member>
+        <member name="M:TMS.API.Controllers.CandidateWorkSettingsController.GetAll">
+            <summary>Gets all CandidateWorkSettings.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.CandidateWorkSettingsController.GetById(System.Int32)">
+            <summary>Gets a single CandidateWorkSetting by its key.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.CandidateWorkSettingsController.Create(TMS.BusinessLayer.DTOs.CandidateWorkSettingDto)">
+            <summary>Creates a new CandidateWorkSetting.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.CandidateWorkSettingsController.Update(System.Int32,TMS.BusinessLayer.DTOs.CandidateWorkSettingDto)">
+            <summary>Updates an existing CandidateWorkSetting.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.CandidateWorkSettingsController.Delete(System.Int32)">
+            <summary>Deletes a CandidateWorkSetting.</summary>
+        </member>
+        <member name="T:TMS.API.Controllers.CompaniesController">
+            <summary>
+            Full CRUD endpoints for Company.
+            </summary>
+        </member>
+        <member name="M:TMS.API.Controllers.CompaniesController.GetAll">
+            <summary>Gets all Companies.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.CompaniesController.GetById(System.Int32)">
+            <summary>Gets a single Company by its key.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.CompaniesController.Create(TMS.BusinessLayer.DTOs.CompanyDto)">
+            <summary>Creates a new Company.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.CompaniesController.Update(System.Int32,TMS.BusinessLayer.DTOs.CompanyDto)">
+            <summary>Updates an existing Company.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.CompaniesController.Delete(System.Int32)">
+            <summary>Deletes a Company.</summary>
+        </member>
+        <member name="T:TMS.API.Controllers.PermissionsController">
+            <summary>
+            Full CRUD endpoints for Permission.
+            </summary>
+        </member>
+        <member name="M:TMS.API.Controllers.PermissionsController.GetAll">
+            <summary>Gets all Permissions.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.PermissionsController.GetById(System.Int32)">
+            <summary>Gets a single Permission by its key.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.PermissionsController.Create(TMS.BusinessLayer.DTOs.PermissionDto)">
+            <summary>Creates a new Permission.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.PermissionsController.Update(System.Int32,TMS.BusinessLayer.DTOs.PermissionDto)">
+            <summary>Updates an existing Permission.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.PermissionsController.Delete(System.Int32)">
+            <summary>Deletes a Permission.</summary>
+        </member>
+        <member name="T:TMS.API.Controllers.RolePermissionsController">
+            <summary>
+            Full CRUD endpoints for RolePermission.
+            </summary>
+        </member>
+        <member name="M:TMS.API.Controllers.RolePermissionsController.GetAll">
+            <summary>Gets all RolePermissions.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.RolePermissionsController.GetById(System.Int32,System.Int32)">
+            <summary>Gets a single RolePermission by its key.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.RolePermissionsController.Create(TMS.BusinessLayer.DTOs.RolePermissionDto)">
+            <summary>Creates a new RolePermission.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.RolePermissionsController.Update(System.Int32,System.Int32,TMS.BusinessLayer.DTOs.RolePermissionDto)">
+            <summary>Updates an existing RolePermission.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.RolePermissionsController.Delete(System.Int32,System.Int32)">
+            <summary>Deletes a RolePermission.</summary>
+        </member>
+        <member name="T:TMS.API.Controllers.RolesController">
+            <summary>
+            Full CRUD endpoints for Role.
+            </summary>
+        </member>
+        <member name="M:TMS.API.Controllers.RolesController.GetAll">
+            <summary>Gets all Roles.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.RolesController.GetById(System.Int32)">
+            <summary>Gets a single Role by its key.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.RolesController.Create(TMS.BusinessLayer.DTOs.RoleDto)">
+            <summary>Creates a new Role.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.RolesController.Update(System.Int32,TMS.BusinessLayer.DTOs.RoleDto)">
+            <summary>Updates an existing Role.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.RolesController.Delete(System.Int32)">
+            <summary>Deletes a Role.</summary>
+        </member>
+        <member name="T:TMS.API.Controllers.TeamsController">
+            <summary>
+            Full CRUD endpoints for Team.
+            </summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TeamsController.GetAll">
+            <summary>Gets all Teams.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TeamsController.GetById(System.Int32)">
+            <summary>Gets a single Team by its key.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TeamsController.Create(TMS.BusinessLayer.DTOs.TeamDto)">
+            <summary>Creates a new Team.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TeamsController.Update(System.Int32,TMS.BusinessLayer.DTOs.TeamDto)">
+            <summary>Updates an existing Team.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TeamsController.Delete(System.Int32)">
+            <summary>Deletes a Team.</summary>
+        </member>
+        <member name="T:TMS.API.Controllers.TimesheetAlertsController">
+            <summary>
+            Full CRUD endpoints for TimesheetAlert.
+            </summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TimesheetAlertsController.GetAll">
+            <summary>Gets all TimesheetAlerts.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TimesheetAlertsController.GetById(System.Int64)">
+            <summary>Gets a single TimesheetAlert by its key.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TimesheetAlertsController.Create(TMS.BusinessLayer.DTOs.TimesheetAlertDto)">
+            <summary>Creates a new TimesheetAlert.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TimesheetAlertsController.Update(System.Int64,TMS.BusinessLayer.DTOs.TimesheetAlertDto)">
+            <summary>Updates an existing TimesheetAlert.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TimesheetAlertsController.Delete(System.Int64)">
+            <summary>Deletes a TimesheetAlert.</summary>
+        </member>
+        <member name="T:TMS.API.Controllers.TimesheetBreaksController">
+            <summary>
+            Full CRUD endpoints for TimesheetBreak.
+            </summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TimesheetBreaksController.GetAll">
+            <summary>Gets all TimesheetBreaks.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TimesheetBreaksController.GetById(System.Int64)">
+            <summary>Gets a single TimesheetBreak by its key.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TimesheetBreaksController.Create(TMS.BusinessLayer.DTOs.TimesheetBreakDto)">
+            <summary>Creates a new TimesheetBreak.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TimesheetBreaksController.Update(System.Int64,TMS.BusinessLayer.DTOs.TimesheetBreakDto)">
+            <summary>Updates an existing TimesheetBreak.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TimesheetBreaksController.Delete(System.Int64)">
+            <summary>Deletes a TimesheetBreak.</summary>
+        </member>
+        <member name="T:TMS.API.Controllers.TimesheetDaysController">
+            <summary>
+            Full CRUD endpoints for TimesheetDay.
+            </summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TimesheetDaysController.GetAll">
+            <summary>Gets all TimesheetDays.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TimesheetDaysController.GetById(System.Int64)">
+            <summary>Gets a single TimesheetDay by its key.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TimesheetDaysController.Create(TMS.BusinessLayer.DTOs.TimesheetDayDto)">
+            <summary>Creates a new TimesheetDay.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TimesheetDaysController.Update(System.Int64,TMS.BusinessLayer.DTOs.TimesheetDayDto)">
+            <summary>Updates an existing TimesheetDay.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TimesheetDaysController.Delete(System.Int64)">
+            <summary>Deletes a TimesheetDay.</summary>
+        </member>
+        <member name="T:TMS.API.Controllers.TimesheetStatusHistoriesController">
+            <summary>
+            Full CRUD endpoints for TimesheetStatusHistory.
+            </summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TimesheetStatusHistoriesController.GetAll">
+            <summary>Gets all TimesheetStatusHistories.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TimesheetStatusHistoriesController.GetById(System.Int64)">
+            <summary>Gets a single TimesheetStatusHistory by its key.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TimesheetStatusHistoriesController.Create(TMS.BusinessLayer.DTOs.TimesheetStatusHistoryDto)">
+            <summary>Creates a new TimesheetStatusHistory.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TimesheetStatusHistoriesController.Update(System.Int64,TMS.BusinessLayer.DTOs.TimesheetStatusHistoryDto)">
+            <summary>Updates an existing TimesheetStatusHistory.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TimesheetStatusHistoriesController.Delete(System.Int64)">
+            <summary>Deletes a TimesheetStatusHistory.</summary>
+        </member>
+        <member name="T:TMS.API.Controllers.TimesheetUploadBatchesController">
+            <summary>
+            Full CRUD endpoints for TimesheetUploadBatch.
+            </summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TimesheetUploadBatchesController.GetAll">
+            <summary>Gets all TimesheetUploadBatches.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TimesheetUploadBatchesController.GetById(System.Int32)">
+            <summary>Gets a single TimesheetUploadBatch by its key.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TimesheetUploadBatchesController.Create(TMS.BusinessLayer.DTOs.TimesheetUploadBatchDto)">
+            <summary>Creates a new TimesheetUploadBatch.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TimesheetUploadBatchesController.Update(System.Int32,TMS.BusinessLayer.DTOs.TimesheetUploadBatchDto)">
+            <summary>Updates an existing TimesheetUploadBatch.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.TimesheetUploadBatchesController.Delete(System.Int32)">
+            <summary>Deletes a TimesheetUploadBatch.</summary>
+        </member>
+        <member name="T:TMS.API.Controllers.UserRolesController">
+            <summary>
+            Full CRUD endpoints for UserRole.
+            </summary>
+        </member>
+        <member name="M:TMS.API.Controllers.UserRolesController.GetAll">
+            <summary>Gets all UserRoles.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.UserRolesController.GetById(System.Int32)">
+            <summary>Gets a single UserRole by its key.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.UserRolesController.Create(TMS.BusinessLayer.DTOs.UserRoleDto)">
+            <summary>Creates a new UserRole.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.UserRolesController.Update(System.Int32,TMS.BusinessLayer.DTOs.UserRoleDto)">
+            <summary>Updates an existing UserRole.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.UserRolesController.Delete(System.Int32)">
+            <summary>Deletes a UserRole.</summary>
+        </member>
     </members>
 </doc>

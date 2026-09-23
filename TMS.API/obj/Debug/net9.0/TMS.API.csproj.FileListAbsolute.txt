@@ -172,4 +172,6 @@ E:\TMS_Project\TMS_API\TMS.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.d
 E:\TMS_Project\TMS_API\TMS.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\TMS_Project\TMS_API\TMS.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 E:\TMS_Project\TMS_API\TMS.API\obj\Debug\net9.0\TMS.API.xml
+E:\TMS_Project\TMS_API\TMS.API\bin\Debug\net9.0\AutoMapper.dll
+E:\TMS_Project\TMS_API\TMS.API\bin\Debug\net9.0\System.Diagnostics.DiagnosticSource.dll
 E:\TMS_Project\TMS_API\TMS.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
