@@ -1,0 +1,12 @@
+E:\TMS_Project\TMS_API\TMS.Utilities\bin\Debug\net9.0\TMS.Utilities.deps.json
+E:\TMS_Project\TMS_API\TMS.Utilities\bin\Debug\net9.0\TMS.Utilities.dll
+E:\TMS_Project\TMS_API\TMS.Utilities\bin\Debug\net9.0\TMS.Utilities.pdb
+E:\TMS_Project\TMS_API\TMS.Utilities\obj\Debug\net9.0\TMS.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+E:\TMS_Project\TMS_API\TMS.Utilities\obj\Debug\net9.0\TMS.Utilities.AssemblyInfoInputs.cache
+E:\TMS_Project\TMS_API\TMS.Utilities\obj\Debug\net9.0\TMS.Utilities.AssemblyInfo.cs
+E:\TMS_Project\TMS_API\TMS.Utilities\obj\Debug\net9.0\TMS.Utilities.csproj.CoreCompileInputs.cache
+E:\TMS_Project\TMS_API\TMS.Utilities\obj\Debug\net9.0\TMS.Utilities.sourcelink.json
+E:\TMS_Project\TMS_API\TMS.Utilities\obj\Debug\net9.0\TMS.Utilities.dll
+E:\TMS_Project\TMS_API\TMS.Utilities\obj\Debug\net9.0\refint\TMS.Utilities.dll
+E:\TMS_Project\TMS_API\TMS.Utilities\obj\Debug\net9.0\TMS.Utilities.pdb
+E:\TMS_Project\TMS_API\TMS.Utilities\obj\Debug\net9.0\ref\TMS.Utilities.dll
