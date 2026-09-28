@@ -16,3 +16,21 @@ E:\TMS_Project\TMS_API\TMS.DataAccessLayer\obj\Debug\net9.0\TMS.DataAccessLayer.
 E:\TMS_Project\TMS_API\TMS.DataAccessLayer\obj\Debug\net9.0\ref\TMS.DataAccessLayer.dll
 E:\TMS_Project\TMS_API\TMS.DataAccessLayer\bin\Debug\net9.0\TMS.DataAccessLayer.runtimeconfig.json
 E:\TMS_Project\TMS_API\TMS.DataAccessLayer\obj\Debug\net9.0\TMS.DataAccessLayer.genruntimeconfig.cache
+D:\TMS Project\TMS_API\TMS.DataAccessLayer\bin\Debug\net9.0\TMS.DataAccessLayer.deps.json
+D:\TMS Project\TMS_API\TMS.DataAccessLayer\bin\Debug\net9.0\TMS.DataAccessLayer.runtimeconfig.json
+D:\TMS Project\TMS_API\TMS.DataAccessLayer\bin\Debug\net9.0\TMS.DataAccessLayer.dll
+D:\TMS Project\TMS_API\TMS.DataAccessLayer\bin\Debug\net9.0\TMS.DataAccessLayer.pdb
+D:\TMS Project\TMS_API\TMS.DataAccessLayer\bin\Debug\net9.0\TMS.Utilities.dll
+D:\TMS Project\TMS_API\TMS.DataAccessLayer\bin\Debug\net9.0\TMS.Utilities.pdb
+D:\TMS Project\TMS_API\TMS.DataAccessLayer\obj\Debug\net9.0\TMS.DataAccessLayer.csproj.AssemblyReference.cache
+D:\TMS Project\TMS_API\TMS.DataAccessLayer\obj\Debug\net9.0\TMS.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\TMS Project\TMS_API\TMS.DataAccessLayer\obj\Debug\net9.0\TMS.DataAccessLayer.AssemblyInfoInputs.cache
+D:\TMS Project\TMS_API\TMS.DataAccessLayer\obj\Debug\net9.0\TMS.DataAccessLayer.AssemblyInfo.cs
+D:\TMS Project\TMS_API\TMS.DataAccessLayer\obj\Debug\net9.0\TMS.DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\TMS Project\TMS_API\TMS.DataAccessLayer\obj\Debug\net9.0\TMS.DataAccessLayer.sourcelink.json
+D:\TMS Project\TMS_API\TMS.DataAccessLayer\obj\Debug\net9.0\TMS.Data.D792C4E1.Up2Date
+D:\TMS Project\TMS_API\TMS.DataAccessLayer\obj\Debug\net9.0\TMS.DataAccessLayer.dll
+D:\TMS Project\TMS_API\TMS.DataAccessLayer\obj\Debug\net9.0\refint\TMS.DataAccessLayer.dll
+D:\TMS Project\TMS_API\TMS.DataAccessLayer\obj\Debug\net9.0\TMS.DataAccessLayer.pdb
+D:\TMS Project\TMS_API\TMS.DataAccessLayer\obj\Debug\net9.0\TMS.DataAccessLayer.genruntimeconfig.cache
+D:\TMS Project\TMS_API\TMS.DataAccessLayer\obj\Debug\net9.0\ref\TMS.DataAccessLayer.dll

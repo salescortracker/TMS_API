@@ -4,6 +4,12 @@ namespace TMS.BusinessLayer.DTOs;
 
 public class TimesheetDayDto
 {
+    public string? Task { get; set; }
+    public string? Description { get; set; }
+    public bool IsFlagged { get; set; }
+    public string? FlagReason { get; set; }
+    public int? ReviewedByAppUserId { get; set; }
+
     public long TimesheetDayId { get; set; }
 
     public int CandidateId { get; set; }
@@ -52,3 +58,4 @@ public class TimesheetDayDto
 
     public decimal? WorkedHours { get; set; }
 }
+

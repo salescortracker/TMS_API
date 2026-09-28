@@ -13,6 +13,8 @@ public partial class AppUser
 
     public byte[]? PasswordHash { get; set; }
 
+    public bool MustChangePassword { get; set; }
+
     public bool IsActive { get; set; }
 
     public DateTime? LastLoginAt { get; set; }

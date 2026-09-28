@@ -50,6 +50,22 @@ public partial class TmsDbContext : DbContext
 
     public virtual DbSet<VwCandidateWeekSummary> VwCandidateWeekSummaries { get; set; }
 
+    public virtual DbSet<VwTeamWeekSummary> VwTeamWeekSummaries { get; set; }
+
+    public virtual DbSet<SystemSetting> SystemSettings { get; set; }
+
+    public virtual DbSet<Menu> Menus { get; set; }
+
+    public virtual DbSet<RoleMenu> RoleMenus { get; set; }
+
+    public virtual DbSet<PasswordResetToken> PasswordResetTokens { get; set; }
+
+    public virtual DbSet<TimesheetUploadRow> TimesheetUploadRows { get; set; }
+
+    public virtual DbSet<EmailAlert> EmailAlerts { get; set; }
+
+    public virtual DbSet<Notification> Notifications { get; set; }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<ActivityLog>(entity =>
@@ -473,6 +489,108 @@ public partial class TmsDbContext : DbContext
 
             entity.Property(e => e.TargetHours).HasColumnType("decimal(5, 2)");
             entity.Property(e => e.WorkedHours).HasColumnType("decimal(6, 2)");
+        });
+
+        modelBuilder.Entity<VwTeamWeekSummary>(entity =>
+        {
+            entity
+                .HasNoKey()
+                .ToView("vw_TeamWeekSummary");
+
+            entity.Property(e => e.Hours).HasColumnType("decimal(8, 2)");
+        });
+
+        modelBuilder.Entity<SystemSetting>(entity =>
+        {
+            entity.ToTable("SystemSetting");
+            entity.HasKey(e => e.SettingKey);
+            entity.Property(e => e.SettingKey).HasMaxLength(60).IsUnicode(false);
+            entity.Property(e => e.SettingValue).HasMaxLength(500);
+            entity.Property(e => e.Description).HasMaxLength(250);
+            entity.Property(e => e.UpdatedAt).HasPrecision(0).HasDefaultValueSql("(sysutcdatetime())");
+        });
+
+        modelBuilder.Entity<Menu>(entity =>
+        {
+            entity.ToTable("Menu");
+            entity.HasIndex(e => e.MenuCode, "UQ_Menu_Code").IsUnique();
+            entity.Property(e => e.MenuCode).HasMaxLength(40).IsUnicode(false);
+            entity.Property(e => e.MenuName).HasMaxLength(100);
+            entity.Property(e => e.Description).HasMaxLength(250);
+        });
+
+        modelBuilder.Entity<RoleMenu>(entity =>
+        {
+            entity.ToTable("RoleMenu");
+            entity.HasKey(e => new { e.RoleId, e.MenuId });
+            entity.HasOne(d => d.Role).WithMany(p => p.RoleMenus)
+                .HasForeignKey(d => d.RoleId)
+                .HasConstraintName("FK_RoleMenu_Role");
+            entity.HasOne(d => d.Menu).WithMany(p => p.RoleMenus)
+                .HasForeignKey(d => d.MenuId)
+                .HasConstraintName("FK_RoleMenu_Menu");
+        });
+
+        modelBuilder.Entity<PasswordResetToken>(entity =>
+        {
+            entity.ToTable("PasswordResetToken");
+            entity.Property(e => e.TokenHash).HasMaxLength(64);
+            entity.Property(e => e.ExpiresAt).HasPrecision(0);
+            entity.Property(e => e.UsedAt).HasPrecision(0);
+            entity.Property(e => e.CreatedAt).HasPrecision(0).HasDefaultValueSql("(sysutcdatetime())");
+        });
+
+        modelBuilder.Entity<TimesheetUploadRow>(entity =>
+        {
+            entity.ToTable("TimesheetUploadRow");
+            entity.HasKey(e => e.UploadRowId);
+            entity.Property(e => e.CandidateEmail).HasMaxLength(254);
+            entity.Property(e => e.LogInText).HasMaxLength(20).IsUnicode(false);
+            entity.Property(e => e.LogOutText).HasMaxLength(20).IsUnicode(false);
+            entity.Property(e => e.Task).HasMaxLength(80);
+            entity.Property(e => e.Description).HasMaxLength(500);
+            entity.Property(e => e.ValidationStatus).HasMaxLength(15).IsUnicode(false).HasDefaultValue("Pending");
+            entity.Property(e => e.ErrorMessage).HasMaxLength(300);
+            entity.HasOne(d => d.UploadBatch).WithMany(p => p.Rows)
+                .HasForeignKey(d => d.UploadBatchId)
+                .OnDelete(DeleteBehavior.Cascade)
+                .HasConstraintName("FK_UploadRow_Batch");
+        });
+
+        modelBuilder.Entity<EmailAlert>(entity =>
+        {
+            entity.ToTable("EmailAlert");
+            entity.Property(e => e.RecipientLabel).HasMaxLength(200);
+            entity.Property(e => e.Subject).HasMaxLength(200);
+            entity.Property(e => e.SentAt).HasPrecision(0).HasDefaultValueSql("(sysutcdatetime())");
+        });
+
+        modelBuilder.Entity<Notification>(entity =>
+        {
+            entity.ToTable("Notification");
+            entity.Property(e => e.Title).HasMaxLength(200);
+            entity.Property(e => e.Message).HasMaxLength(500);
+            entity.Property(e => e.LinkUrl).HasMaxLength(200).IsUnicode(false);
+            entity.Property(e => e.CreatedAt).HasPrecision(0).HasDefaultValueSql("(sysutcdatetime())");
+        });
+
+        // Columns added after the first scaffold
+        modelBuilder.Entity<CandidateOnboarding>(entity =>
+        {
+            entity.Property(e => e.RequestType).HasMaxLength(20).IsUnicode(false).HasDefaultValue("Candidate");
+            entity.Property(e => e.FlagReason).HasMaxLength(200);
+        });
+
+        modelBuilder.Entity<TimesheetDay>(entity =>
+        {
+            entity.Property(e => e.Task).HasMaxLength(80);
+            entity.Property(e => e.Description).HasMaxLength(500);
+            entity.Property(e => e.FlagReason).HasMaxLength(200);
+        });
+
+        modelBuilder.Entity<ActivityLog>(entity =>
+        {
+            entity.Property(e => e.Category).HasMaxLength(20).IsUnicode(false).HasDefaultValue("Edits & roles");
         });
 
         OnModelCreatingPartial(modelBuilder);

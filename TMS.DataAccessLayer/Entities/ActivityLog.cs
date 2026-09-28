@@ -17,7 +17,9 @@ public partial class ActivityLog
 
     public int? TargetCandidateId { get; set; }
 
-    public string Severity { get; set; } = null!;
+    public string Category { get; set; } = "Edits & roles";
+
+    public string Severity { get; set; } = "Info";
 
     public string Description { get; set; } = null!;
 

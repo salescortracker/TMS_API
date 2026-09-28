@@ -1,12 +1,88 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\TMS_Project\\TMS_API\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\TMS Project\\TMS_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD0CBD7-8D1C-4299-BBE7-4CDD8A825BC9}|TMS.API\\TMS.API.csproj|d:\\tms project\\tms_api\\tms.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4CD0CBD7-8D1C-4299-BBE7-4CDD8A825BC9}|TMS.API\\TMS.API.csproj|solutionrelative:tms.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD0CBD7-8D1C-4299-BBE7-4CDD8A825BC9}|TMS.API\\TMS.API.csproj|d:\\tms project\\tms_api\\tms.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4CD0CBD7-8D1C-4299-BBE7-4CDD8A825BC9}|TMS.API\\TMS.API.csproj|solutionrelative:tms.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{375A4099-0AE7-4C00-9657-1FDF506481EF}|TMS.BusinessLayer\\TMS.BusinessLayer.csproj|d:\\tms project\\tms_api\\tms.businesslayer\\dtos\\activitylogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{375A4099-0AE7-4C00-9657-1FDF506481EF}|TMS.BusinessLayer\\TMS.BusinessLayer.csproj|solutionrelative:tms.businesslayer\\dtos\\activitylogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD0CBD7-8D1C-4299-BBE7-4CDD8A825BC9}|TMS.API\\TMS.API.csproj|d:\\tms project\\tms_api\\tms.api\\controllers\\activitylogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CD0CBD7-8D1C-4299-BBE7-4CDD8A825BC9}|TMS.API\\TMS.API.csproj|solutionrelative:tms.api\\controllers\\activitylogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\TMS Project\\TMS_API\\TMS.API\\appsettings.json",
+              "RelativeDocumentMoniker": "TMS.API\\appsettings.json",
+              "ToolTip": "D:\\TMS Project\\TMS_API\\TMS.API\\appsettings.json",
+              "RelativeToolTip": "TMS.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-25T11:58:10.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\TMS Project\\TMS_API\\TMS.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "TMS.API\\appsettings.Development.json",
+              "ToolTip": "D:\\TMS Project\\TMS_API\\TMS.API\\appsettings.Development.json",
+              "RelativeToolTip": "TMS.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-25T11:58:06.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ActivityLogDto.cs",
+              "DocumentMoniker": "D:\\TMS Project\\TMS_API\\TMS.BusinessLayer\\DTOs\\ActivityLogDto.cs",
+              "RelativeDocumentMoniker": "TMS.BusinessLayer\\DTOs\\ActivityLogDto.cs",
+              "ToolTip": "D:\\TMS Project\\TMS_API\\TMS.BusinessLayer\\DTOs\\ActivityLogDto.cs",
+              "RelativeToolTip": "TMS.BusinessLayer\\DTOs\\ActivityLogDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T11:03:24.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ActivityLogsController.cs",
+              "DocumentMoniker": "D:\\TMS Project\\TMS_API\\TMS.API\\Controllers\\ActivityLogsController.cs",
+              "RelativeDocumentMoniker": "TMS.API\\Controllers\\ActivityLogsController.cs",
+              "ToolTip": "D:\\TMS Project\\TMS_API\\TMS.API\\Controllers\\ActivityLogsController.cs",
+              "RelativeToolTip": "TMS.API\\Controllers\\ActivityLogsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T16:26:55.663Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

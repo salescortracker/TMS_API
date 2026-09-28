@@ -19,6 +19,16 @@ public partial class TimesheetDay
 
     public int? ActivityTypeId { get; set; }
 
+    public string? Task { get; set; }
+
+    public string? Description { get; set; }
+
+    public bool IsFlagged { get; set; }
+
+    public string? FlagReason { get; set; }
+
+    public int? ReviewedByAppUserId { get; set; }
+
     public int WorkedMinutes { get; set; }
 
     public int BreakMinutes { get; set; }

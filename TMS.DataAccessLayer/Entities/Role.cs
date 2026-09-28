@@ -11,6 +11,10 @@ public partial class Role
 
     public string? Description { get; set; }
 
+    public bool IsBuiltIn { get; set; }
+
+    public virtual ICollection<RoleMenu> RoleMenus { get; set; } = new List<RoleMenu>();
+
     public virtual ICollection<UserRole> UserRoles { get; set; } = new List<UserRole>();
 
     public virtual ICollection<Permission> Permissions { get; set; } = new List<Permission>();

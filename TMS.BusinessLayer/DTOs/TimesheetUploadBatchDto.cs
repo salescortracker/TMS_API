@@ -4,9 +4,12 @@ namespace TMS.BusinessLayer.DTOs;
 
 public class TimesheetUploadBatchDto
 {
+    public int? UploadedByAppUserId { get; set; }
+    public int RowCountError { get; set; }
+
     public int UploadBatchId { get; set; }
 
-    public int CandidateId { get; set; }
+    public int? CandidateId { get; set; }
 
     [Required]
     [MaxLength(260)]
@@ -25,3 +28,5 @@ public class TimesheetUploadBatchDto
 
     public DateTime UploadedAt { get; set; }
 }
+
+

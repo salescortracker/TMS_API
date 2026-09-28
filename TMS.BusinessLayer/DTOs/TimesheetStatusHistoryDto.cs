@@ -4,6 +4,8 @@ namespace TMS.BusinessLayer.DTOs;
 
 public class TimesheetStatusHistoryDto
 {
+    public int? ChangedByAppUserId { get; set; }
+
     public long TimesheetStatusHistoryId { get; set; }
 
     public long TimesheetDayId { get; set; }
@@ -24,3 +26,4 @@ public class TimesheetStatusHistoryDto
 
     public DateTime ChangedAt { get; set; }
 }
+

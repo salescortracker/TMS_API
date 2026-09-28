@@ -4,6 +4,8 @@ namespace TMS.BusinessLayer.DTOs;
 
 public class ActivityLogDto
 {
+    public string Category { get; set; } = "Edits & roles";
+
     public long ActivityLogId { get; set; }
 
     public int? ActorAppUserId { get; set; }
@@ -32,3 +34,4 @@ public class ActivityLogDto
 
     public DateTime CreatedAt { get; set; }
 }
+

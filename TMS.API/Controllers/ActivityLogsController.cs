@@ -9,7 +9,7 @@ namespace TMS.API.Controllers;
 /// </summary>
 [ApiController]
 [Route("api/[controller]")]
-public class ActivityLogsController : ControllerBase
+public class sActivityLogsController : ControllerBase
 {
     private readonly IActivityLogService _service;
 

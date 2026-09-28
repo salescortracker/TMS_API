@@ -4,6 +4,9 @@ namespace TMS.BusinessLayer.DTOs;
 
 public class CandidateOnboardingDto
 {
+    public string RequestType { get; set; } = "Candidate";
+    public string? FlagReason { get; set; }
+
     public int CandidateId { get; set; }
 
     [Required]
@@ -47,3 +50,4 @@ public class CandidateOnboardingDto
 
     public bool IsActive { get; set; }
 }
+

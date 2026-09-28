@@ -4,6 +4,8 @@ namespace TMS.BusinessLayer.DTOs;
 
 public class RoleDto
 {
+    public bool IsBuiltIn { get; set; }
+
     public int RoleId { get; set; }
 
     [Required]
@@ -13,3 +15,4 @@ public class RoleDto
     [MaxLength(250)]
     public string? Description { get; set; }
 }
+

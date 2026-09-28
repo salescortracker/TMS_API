@@ -16,3 +16,21 @@ E:\TMS_Project\TMS_API\TMS.BusinessLayer\obj\Debug\net9.0\TMS.BusinessLayer.dll
 E:\TMS_Project\TMS_API\TMS.BusinessLayer\obj\Debug\net9.0\refint\TMS.BusinessLayer.dll
 E:\TMS_Project\TMS_API\TMS.BusinessLayer\obj\Debug\net9.0\TMS.BusinessLayer.pdb
 E:\TMS_Project\TMS_API\TMS.BusinessLayer\obj\Debug\net9.0\ref\TMS.BusinessLayer.dll
+D:\TMS Project\TMS_API\TMS.BusinessLayer\bin\Debug\net9.0\TMS.BusinessLayer.deps.json
+D:\TMS Project\TMS_API\TMS.BusinessLayer\bin\Debug\net9.0\TMS.BusinessLayer.dll
+D:\TMS Project\TMS_API\TMS.BusinessLayer\bin\Debug\net9.0\TMS.BusinessLayer.pdb
+D:\TMS Project\TMS_API\TMS.BusinessLayer\bin\Debug\net9.0\TMS.DataAccessLayer.dll
+D:\TMS Project\TMS_API\TMS.BusinessLayer\bin\Debug\net9.0\TMS.Utilities.dll
+D:\TMS Project\TMS_API\TMS.BusinessLayer\bin\Debug\net9.0\TMS.DataAccessLayer.pdb
+D:\TMS Project\TMS_API\TMS.BusinessLayer\bin\Debug\net9.0\TMS.Utilities.pdb
+D:\TMS Project\TMS_API\TMS.BusinessLayer\obj\Debug\net9.0\TMS.BusinessLayer.csproj.AssemblyReference.cache
+D:\TMS Project\TMS_API\TMS.BusinessLayer\obj\Debug\net9.0\TMS.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\TMS Project\TMS_API\TMS.BusinessLayer\obj\Debug\net9.0\TMS.BusinessLayer.AssemblyInfoInputs.cache
+D:\TMS Project\TMS_API\TMS.BusinessLayer\obj\Debug\net9.0\TMS.BusinessLayer.AssemblyInfo.cs
+D:\TMS Project\TMS_API\TMS.BusinessLayer\obj\Debug\net9.0\TMS.BusinessLayer.csproj.CoreCompileInputs.cache
+D:\TMS Project\TMS_API\TMS.BusinessLayer\obj\Debug\net9.0\TMS.BusinessLayer.sourcelink.json
+D:\TMS Project\TMS_API\TMS.BusinessLayer\obj\Debug\net9.0\TMS.Busi.80E33C99.Up2Date
+D:\TMS Project\TMS_API\TMS.BusinessLayer\obj\Debug\net9.0\TMS.BusinessLayer.dll
+D:\TMS Project\TMS_API\TMS.BusinessLayer\obj\Debug\net9.0\refint\TMS.BusinessLayer.dll
+D:\TMS Project\TMS_API\TMS.BusinessLayer\obj\Debug\net9.0\TMS.BusinessLayer.pdb
+D:\TMS Project\TMS_API\TMS.BusinessLayer\obj\Debug\net9.0\ref\TMS.BusinessLayer.dll

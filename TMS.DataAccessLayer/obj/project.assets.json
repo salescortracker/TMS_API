@@ -4648,23 +4648,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\srini\\.nuget\\packages\\": {},
+    "C:\\Users\\Srinivas Chouwdary\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\TMS_Project\\TMS_API\\TMS.DataAccessLayer\\TMS.DataAccessLayer.csproj",
+      "projectUniqueName": "D:\\TMS Project\\TMS_API\\TMS.DataAccessLayer\\TMS.DataAccessLayer.csproj",
       "projectName": "TMS.DataAccessLayer",
-      "projectPath": "E:\\TMS_Project\\TMS_API\\TMS.DataAccessLayer\\TMS.DataAccessLayer.csproj",
-      "packagesPath": "C:\\Users\\srini\\.nuget\\packages\\",
-      "outputPath": "E:\\TMS_Project\\TMS_API\\TMS.DataAccessLayer\\obj\\",
+      "projectPath": "D:\\TMS Project\\TMS_API\\TMS.DataAccessLayer\\TMS.DataAccessLayer.csproj",
+      "packagesPath": "C:\\Users\\Srinivas Chouwdary\\.nuget\\packages\\",
+      "outputPath": "D:\\TMS Project\\TMS_API\\TMS.DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\srini\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Srinivas Chouwdary\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4679,8 +4679,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "E:\\TMS_Project\\TMS_API\\TMS.Utilities\\TMS.Utilities.csproj": {
-              "projectPath": "E:\\TMS_Project\\TMS_API\\TMS.Utilities\\TMS.Utilities.csproj"
+            "D:\\TMS Project\\TMS_API\\TMS.Utilities\\TMS.Utilities.csproj": {
+              "projectPath": "D:\\TMS Project\\TMS_API\\TMS.Utilities\\TMS.Utilities.csproj"
             }
           }
         }

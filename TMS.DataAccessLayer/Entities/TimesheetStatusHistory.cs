@@ -17,6 +17,8 @@ public partial class TimesheetStatusHistory
 
     public int? ChangedByApproverId { get; set; }
 
+    public int? ChangedByAppUserId { get; set; }
+
     public string? Comments { get; set; }
 
     public DateTime ChangedAt { get; set; }

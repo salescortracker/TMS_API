@@ -4,6 +4,8 @@ namespace TMS.BusinessLayer.DTOs;
 
 public class AppUserDto
 {
+    public bool MustChangePassword { get; set; }
+
     public int AppUserId { get; set; }
 
     [Required]
@@ -22,3 +24,4 @@ public class AppUserDto
 
     public DateTime CreatedAt { get; set; }
 }
+

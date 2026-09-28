@@ -84,6 +84,15 @@
         <member name="M:TMS.API.Controllers.AppUsersController.Delete(System.Int32)">
             <summary>Deletes a AppUser.</summary>
         </member>
+        <member name="T:TMS.API.Controllers.AuthController">
+            <summary>Login for the Angular app — issues a JWT.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.AuthController.Login(TMS.BusinessLayer.DTOs.LoginRequestDto)">
+            <summary>Verifies email + password against AppUser and returns a JWT with the caller's roles/permissions/menus.</summary>
+        </member>
+        <member name="M:TMS.API.Controllers.AuthController.ChangePassword(TMS.BusinessLayer.DTOs.ChangePasswordDto)">
+            <summary>Lets the signed-in user set a new password (required after a temporary password).</summary>
+        </member>
         <member name="T:TMS.API.Controllers.CandidateApprovalsController">
             <summary>
             Full CRUD endpoints for CandidateApproval.
@@ -374,6 +383,24 @@
         </member>
         <member name="M:TMS.API.Controllers.UserRolesController.Delete(System.Int32)">
             <summary>Deletes a UserRole.</summary>
+        </member>
+        <member name="T:TMS.API.Controllers.Workflow.MyController">
+            <summary>Everything a candidate does with their own timesheet, clock and profile.</summary>
+        </member>
+        <member name="T:TMS.API.Controllers.Workflow.PublicController">
+            <summary>Pages that work without logging in: onboarding form, manager registration, dropdown data.</summary>
+        </member>
+        <member name="M:TMS.API.Extensions.AuthorizationExtensions.AddTmsAuthorization(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>Policies "perm:{code}" and "menu:{code}" check the claims inside the JWT.</summary>
+        </member>
+        <member name="T:TMS.API.Extensions.LegacyControllerConvention">
+            <summary>The original generic CRUD controllers stay, but only role/user administrators may call them.</summary>
+        </member>
+        <member name="T:TMS.API.Middlewares.ExceptionMiddleware">
+            <summary>Turns business exceptions into clean JSON errors: { "message": "..." }.</summary>
+        </member>
+        <member name="T:TMS.API.Services.CurrentUser">
+            <summary>Reads the signed-in caller from the JWT on the current HTTP request.</summary>
         </member>
     </members>
 </doc>

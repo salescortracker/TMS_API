@@ -1,5 +1,7 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
+using TMS.BusinessLayer.Common;
 using TMS.BusinessLayer.Mappings;
+using TMS.BusinessLayer.Services.Workflow;
 using TMS.BusinessLayer.Services.Implementations;
 using TMS.BusinessLayer.Services.Interfaces;
 
@@ -11,6 +13,7 @@ public static class DependencyInjection
     {
         services.AddAutoMapper(cfg => { }, typeof(MappingProfile));
 
+        services.AddScoped<IAuthService, AuthService>();
         services.AddScoped<IActivityLogService, ActivityLogService>();
         services.AddScoped<IActivityTypeService, ActivityTypeService>();
         services.AddScoped<IAppUserService, AppUserService>();
@@ -30,6 +33,21 @@ public static class DependencyInjection
         services.AddScoped<ITimesheetUploadBatchService, TimesheetUploadBatchService>();
         services.AddScoped<IUserRoleService, UserRoleService>();
         services.AddScoped<ICandidateWeekSummaryService, CandidateWeekSummaryService>();
+
+        services.AddScoped<IScopeService, ScopeService>();
+        services.AddScoped<IAuditService, AuditService>();
+        services.AddScoped<ITimesheetCore, TimesheetCore>();
+        services.AddScoped<ILookupService, LookupService>();
+        services.AddScoped<IOnboardingService, OnboardingService>();
+        services.AddScoped<IMyTimesheetService, MyTimesheetService>();
+        services.AddScoped<IClockService, ClockService>();
+        services.AddScoped<IApprovalService, ApprovalService>();
+        services.AddScoped<IDashboardService, DashboardService>();
+        services.AddScoped<IReportService, ReportService>();
+        services.AddScoped<IPeopleService, PeopleService>();
+        services.AddScoped<IAccessAdminService, AccessAdminService>();
+        services.AddScoped<IActivityService, ActivityService>();
+        services.AddScoped<IBulkUploadService, BulkUploadService>();
 
         return services;
     }

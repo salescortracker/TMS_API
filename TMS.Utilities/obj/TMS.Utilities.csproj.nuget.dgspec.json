@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\TMS_Project\\TMS_API\\TMS.Utilities\\TMS.Utilities.csproj": {}
+    "D:\\TMS Project\\TMS_API\\TMS.Utilities\\TMS.Utilities.csproj": {}
   },
   "projects": {
-    "E:\\TMS_Project\\TMS_API\\TMS.Utilities\\TMS.Utilities.csproj": {
+    "D:\\TMS Project\\TMS_API\\TMS.Utilities\\TMS.Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\TMS_Project\\TMS_API\\TMS.Utilities\\TMS.Utilities.csproj",
+        "projectUniqueName": "D:\\TMS Project\\TMS_API\\TMS.Utilities\\TMS.Utilities.csproj",
         "projectName": "TMS.Utilities",
-        "projectPath": "E:\\TMS_Project\\TMS_API\\TMS.Utilities\\TMS.Utilities.csproj",
-        "packagesPath": "C:\\Users\\srini\\.nuget\\packages\\",
-        "outputPath": "E:\\TMS_Project\\TMS_API\\TMS.Utilities\\obj\\",
+        "projectPath": "D:\\TMS Project\\TMS_API\\TMS.Utilities\\TMS.Utilities.csproj",
+        "packagesPath": "C:\\Users\\Srinivas Chouwdary\\.nuget\\packages\\",
+        "outputPath": "D:\\TMS Project\\TMS_API\\TMS.Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\srini\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Srinivas Chouwdary\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -7,6 +7,10 @@ public partial class CandidateOnboarding
 {
     public int CandidateId { get; set; }
 
+    public string RequestType { get; set; } = "Candidate";
+
+    public string? FlagReason { get; set; }
+
     public string FirstName { get; set; } = null!;
 
     public string LastName { get; set; } = null!;
